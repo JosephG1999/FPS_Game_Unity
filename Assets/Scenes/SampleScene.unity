@@ -1287,9 +1287,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 509574408912675513, guid: 9aa65bc774a01cf439e23ebeb48f1d80, type: 3}
-  bulletSpawn: {fileID: 521453679}
+  bulletSpawn: {fileID: 1774561498}
   bulletVelocity: 30
   bulletPrefabLifeTime: 3
+  playerCamera: {fileID: 963194227}
+  isShooting: 0
+  readyToShoot: 0
+  shootingDelay: 0
+  bulletsPerBurst: 3
+  bulletsLeftInBurst: 0
+  spreadIntensity: 0
+  shootingMode: 2
 --- !u!1 &2026138022
 GameObject:
   m_ObjectHideFlags: 0

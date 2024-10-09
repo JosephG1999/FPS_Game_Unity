@@ -59,6 +59,7 @@ public class Weapon : MonoBehaviour
             bulletsLeftInBurst = bulletsPerBurst;
             FireWeapon();
         }
+
     }
 
     private void FireWeapon()
@@ -84,6 +85,9 @@ public class Weapon : MonoBehaviour
             bulletsLeftInBurst--;
             Invoke("FireWeapon", shootingDelay);
         }
+        Debug.Log("Bullet position: " + bullet.transform.position);
+        Debug.Log("Bullet rotation: " + bullet.transform.rotation);
+        Debug.Log("Bullet scale: " + bullet.transform.localScale);
     }
 
     private void ResetShot()
